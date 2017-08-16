@@ -21,7 +21,7 @@
 ---
 jre:
   version: 1.8.0_+
-  repository_root: "https://na1-pr.skura.com/buildpacks"
+  repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
 jvmkill_agent:
   version: 1.+
   repository_root: "{default.repository.root}/jvmkill/{platform}/{architecture}"
