@@ -16,4 +16,5 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-java_opts:"-XX:MaxDirectMemorySize=1024M"
+java_opts:
+  -XX:MaxDirectMemorySize: 1024M
