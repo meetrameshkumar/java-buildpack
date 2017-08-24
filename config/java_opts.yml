@@ -17,4 +17,4 @@
 ---
 from_environment: true
 java_opts:
-  -Xmx1024m;-XX:MaxDirectMemorySize=2048M
+  -XX:MaxDirectMemorySize=2048M
